@@ -74,10 +74,9 @@ def _color_state():
 
 
 def create_renderer():
-    """Create the renderer and the 54 cube tiles without starting the loop."""
     from pathlib import Path
 
-    from rendererv1 import Renderer
+    from .rendererv1 import Renderer
 
     model_file = Path(__file__).with_name("rcf.vl")
     renderer = Renderer(model_file=str(model_file))
