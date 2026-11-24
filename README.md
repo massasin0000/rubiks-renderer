@@ -1,0 +1,26 @@
+# rubiks-renderer
+
+A very specific Rubik's cube renderer.
+
+## Installation
+
+```bash
+pip install git+https://github.com/massasin0000/rubiks-renderer.git
+```
+
+## Example
+
+```python
+import rubiks_renderer
+
+rubiks_renderer.set_cube_state(
+    ["w"] * 9,
+    ["g"] * 9,
+    ["b"] * 9,
+    ["y"] * 9,
+    ["o"] * 9,
+    ["r"] * 9,
+)
+
+rubiks_renderer.main()
+```
