@@ -10,7 +10,9 @@ readme = "README.md"
 requires-python = ">=3.8"
 
 dependencies = [
-    "pygame"
+    "pygame",
+    "numpy",
+    "moderngl"
 ]
 
 [tool.setuptools]
